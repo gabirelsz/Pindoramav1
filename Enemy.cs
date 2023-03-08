@@ -25,5 +25,5 @@ public class Enemy
 
 
 // A classe Enemy possui os atributos básicos de nome, saúde, ataque e defesa. O construtor é usado para inicializar esses valores.
-O método Attack é usado para causar dano ao personagem do jogador, calculando o dano com base no ataque do inimigo e defesa do jogador.
-Em seguida, o dano é subtraído da saúde do jogador e uma mensagem de log é impressa para informar o jogador sobre o ataque do inimigo.
+// O método Attack é usado para causar dano ao personagem do jogador, calculando o dano com base no ataque do inimigo e defesa do jogador.
+// Em seguida, o dano é subtraído da saúde do jogador e uma mensagem de log é impressa para informar o jogador sobre o ataque do inimigo.
