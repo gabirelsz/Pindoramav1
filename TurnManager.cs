@@ -69,14 +69,14 @@ public class TurnManager : MonoBehaviour
 
 
 
-Essa classe mantém listas separadas de personagens e inimigos, e um índice para cada lista que rastreia qual personagem ou inimigo deve agir
-a seguir. A variável booleana isCharacterTurn indica se é a vez do personagem jogável ou do inimigo.
+// Essa classe mantém listas separadas de personagens e inimigos, e um índice para cada lista que rastreia qual personagem ou inimigo deve agir
+// a seguir. A variável booleana isCharacterTurn indica se é a vez do personagem jogável ou do inimigo.
 
-O método StartBattle é chamado no início de uma batalha e recebe as listas de personagens e inimigos. Ele também reinicia os índices
-e as variáveis booleanas para seus valores iniciais.
+// O método StartBattle é chamado no início de uma batalha e recebe as listas de personagens e inimigos. Ele também reinicia os índices
+// e as variáveis booleanas para seus valores iniciais.
 
-O método Update é chamado a cada frame e faz a lógica principal do turno. Se é a vez do personagem jogável, ele chama o método BeginTurn() do
-personagem atual e incrementa o índice. Se é a vez do inimigo, ele faz o mesmo com o inimigo atual. Quando chega ao final de uma lista, ele verifica se é o fim da rodada (quando ambos personagens e inimigos agiram) e alterna a variável booleana isCharacterTurn para indicar a próxima rodada.
+// O método Update é chamado a cada frame e faz a lógica principal do turno. Se é a vez do personagem jogável, ele chama o método BeginTurn() do
+// personagem atual e incrementa o índice. Se é a vez do inimigo, ele faz o mesmo com o inimigo atual. Quando chega ao final de uma lista, ele verifica se é o fim da rodada (quando ambos personagens e inimigos agiram) e alterna a variável booleana isCharacterTurn para indicar a próxima rodada.
 
-Por fim, o método Update verifica se algum dos lados venceu (ou seja, todos os personagens ou todos os inimigos foram derrotados) e encerra a
-batalha, exibindo a mensagem correspondente.
+// Por fim, o método Update verifica se algum dos lados venceu (ou seja, todos os personagens ou todos os inimigos foram derrotados) e encerra a
+// batalha, exibindo a mensagem correspondente.
