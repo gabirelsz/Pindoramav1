@@ -114,33 +114,29 @@ Comportamento em luta: Usa sempre o ataque da espada gelada todos os rounds, qua
 
 Classes/Scripts:
 
-1- Player.cs: Controla o jogador e suas interações com o ambiente e outros personagens.
+
+1- CharacterStats.cs: Classe base que representa as estatísticas de um personagem, como pontos de vida e ataque.
 Codigo em c#:
 
-2- CharacterStats.cs: Classe base que representa as estatísticas de um personagem, como pontos de vida e ataque.
+2- Enemy.cs: Representa um inimigo no jogo. Pode ser uma classe derivada de CharacterStats.
 Codigo em c#:
 
-3- Enemy.cs: Representa um inimigo no jogo. Pode ser uma classe derivada de CharacterStats.
+3- Item.cs: Representa um item no jogo que pode ser coletado pelo jogador, como uma moeda ou um power-up.
 Codigo em c#:
 
-4- Item.cs: Representa um item no jogo que pode ser coletado pelo jogador, como uma moeda ou um power-up.
+4- Inventory.cs: Gerencia o inventário do jogador, mantendo o controle dos itens que ele coletou.
 Codigo em c#:
 
-5- Inventory.cs: Gerencia o inventário do jogador, mantendo o controle dos itens que ele coletou.
+5- UIManager.cs: Gerencia a interface do usuário do jogo, exibindo informações como a vida do jogador e o inventário.
 Codigo em c#:
 
-6- GameManager.cs: Controla o estado do jogo, gerenciando a criação e destruição de objetos e controlando a transição entre diferentes cenas e níveis.
+6- LevelManager.cs: Gerencia a criação e destruição de objetos e inimigos em um nível específico.
 Codigo em c#:
 
-7- UIManager.cs: Gerencia a interface do usuário do jogo, exibindo informações como a vida do jogador e o inventário.
-Codigo em c#:
-8- LevelManager.cs: Gerencia a criação e destruição de objetos e inimigos em um nível específico.
+7- SoundManager.cs: Gerencia a reprodução de sons e músicas no jogo.
 Codigo em c#:
 
-9- SoundManager.cs: Gerencia a reprodução de sons e músicas no jogo.
-Codigo em c#:
-
-10- SaveManager.cs: Gerencia a persistência de dados do jogo, permitindo que o jogador salve e carregue o progresso em diferentes momentos do jogo.
+8- SaveManager.cs: Gerencia a persistência de dados do jogo, permitindo que o jogador salve e carregue o progresso em diferentes momentos do jogo.
 Codigo em c#:
 
 Essas são apenas algumas das classes que podem ser necessárias para o jogo funcionar. Dependendo do escopo do jogo e das funcionalidades desejadas, outras classes e sistemas podem ser necessários.
