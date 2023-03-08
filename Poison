@@ -16,10 +16,10 @@ public class Poison {
 
 
 
-Explicação dos membros da classe:
+// Explicação dos membros da classe:
 
-Name: nome do veneno.
-Duration: duração do veneno em segundos.
-DamagePerTick: dano que o veneno causa a cada intervalo de tempo.
-ApplyTo: método que aplica o efeito do veneno em uma arma, chamando o método Enchant da arma passando a si mesmo como parâmetro.
-Nota: esta é apenas uma implementação básica da classe Poison, e há muitas outras informações e funcionalidades que podem ser adicionadas de acordo com as necessidades do jogo.
+// Name: nome do veneno.
+// Duration: duração do veneno em segundos.
+// DamagePerTick: dano que o veneno causa a cada intervalo de tempo.
+// ApplyTo: método que aplica o efeito do veneno em uma arma, chamando o método Enchant da arma passando a si mesmo como parâmetro.
+// Nota: esta é apenas uma implementação básica da classe Poison, e há muitas outras informações e funcionalidades que podem ser adicionadas de acordo com as necessidades do jogo.
