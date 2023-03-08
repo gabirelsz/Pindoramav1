@@ -1,5 +1,9 @@
 
-// Codigo em C#
+// Codigo em C#, Nesta implementação, a classe Character possui informações 
+como nome, vida, atributos e listas de armas e venenos equipados.
+Ela tem métodos para calcular o dano de ataque total, equipar
+armas e venenos, usar poções de cura, aplicar efeitos de veneno
+em um inimigo e receber dano.
 
 using System.Collections.Generic;
 
