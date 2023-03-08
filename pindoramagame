@@ -1,11 +1,11 @@
 
-Um jogo de RPG Oldschool feito em Unity 2d Mobile.
+Um jogo de RPG dungeon crawler que será feito em Unity 2d Mobile.
 
 Nome do jogo: Pindoramav1
 
-Um jogo rpg mobile 2d em turnos feito em Unity, não existe mapa e não existe movimentação, são apenas cenários de lutas, menu inicial, inventário, tela de conversa com aliados pós algumas batalhas e tela de status do personagem
+Um jogo rpg mobile 2d em turnos feito em Unity, não existe mapa e não existe movimentação, são apenas cenários de lutas, cada sala é uma cena de batalha. menu inicial, inventário, tela de conversa com aliados pós algumas batalhas e tela de status do personagem
 
-O layout do combate é parecido com o layout de combate de jogos de pokemon classicos (pokemon crystal/pokemon blue), com mudanças para encaixar no gameplay de pindoramav1.
+O layout do combate é parecido com o layout de combate de jogos como "Dark of Alchemist - Dungeon Crawler RPG" e "Burriedbornes".
 
 
 
