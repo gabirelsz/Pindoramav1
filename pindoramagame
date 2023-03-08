@@ -112,31 +112,18 @@ Comportamento em luta: Usa sempre o ataque da espada gelada todos os rounds, qua
 
 
 
-Classes/Scripts:
+Para criar este jogo em Unity, preciso criar as seguintes classes:
 
+Character: Esta classe representará o personagem jogável Tupi e conterá suas informações de atributos, armas equipadas e venenos equipados. Ela também terá métodos para atacar, encantar venenos e usar poções de cura.
 
-1- CharacterStats.cs: Classe base que representa as estatísticas de um personagem, como pontos de vida e ataque.
-Codigo em c#:
+Weapon: Esta classe representará as armas que o personagem pode equipar. Ela terá informações como nome, dano base e atributo bônus, e também terá um método para calcular o dano total do ataque.
 
-2- Enemy.cs: Representa um inimigo no jogo. Pode ser uma classe derivada de CharacterStats.
-Codigo em c#:
+Poison: Esta classe representará os venenos que o personagem pode encantar em suas armas. Ela terá informações como nome e efeito, e terá um método para aplicar seu efeito em uma arma.
 
-3- Item.cs: Representa um item no jogo que pode ser coletado pelo jogador, como uma moeda ou um power-up.
-Codigo em c#:
+Potion: Esta classe representará as poções de cura que o personagem pode usar. Ela terá informações como nome e quantidade de cura, e terá um método para curar o personagem.
 
-4- Inventory.cs: Gerencia o inventário do jogador, mantendo o controle dos itens que ele coletou.
-Codigo em c#:
+Enemy: Esta classe representará os inimigos que o personagem enfrentará em combate. Ela terá informações como nome, atributos e vida, e terá métodos para atacar o personagem e calcular o dano.
 
-5- UIManager.cs: Gerencia a interface do usuário do jogo, exibindo informações como a vida do jogador e o inventário.
-Codigo em c#:
+TurnManager: Esta classe gerenciará a ordem dos turnos no combate. Ela terá um método para determinar qual personagem ou inimigo deve agir a seguir, e um método para verificar se a batalha acabou.
 
-6- LevelManager.cs: Gerencia a criação e destruição de objetos e inimigos em um nível específico.
-Codigo em c#:
-
-7- SoundManager.cs: Gerencia a reprodução de sons e músicas no jogo.
-Codigo em c#:
-
-8- SaveManager.cs: Gerencia a persistência de dados do jogo, permitindo que o jogador salve e carregue o progresso em diferentes momentos do jogo.
-Codigo em c#:
-
-Essas são apenas algumas das classes que podem ser necessárias para o jogo funcionar. Dependendo do escopo do jogo e das funcionalidades desejadas, outras classes e sistemas podem ser necessários.
+Além disso, preciso criar interfaces gráficas para exibir as informações do personagem e do inimigo, bem como os botões para encantar venenos, atacar e usar poções de cura. Preciso também criar animações para os ataques e as ações do personagem e dos inimigos.
